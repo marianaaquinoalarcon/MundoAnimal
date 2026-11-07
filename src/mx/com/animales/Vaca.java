@@ -7,11 +7,11 @@ public Vaca(String nombre, int edad){
 
     @Override
     void hacerSonido() {
-        System.out.println("La vaca muge");
+        System.out.print(" |    Sonido: muuu");
     }
 
     @Override
     public void moverse() {
-        System.out.println("La vaca camina");
+        System.out.print(" |    Movimiento: camina");
     }
 }

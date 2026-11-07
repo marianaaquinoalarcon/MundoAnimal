@@ -23,8 +23,8 @@ abstract class Animal {
     }
 
     public void mostrarInformacion(){
-        System.out.println("El nombre del animal es "+this.nombre);
-        System.out.println("La edad del animal es "+this.edad);
+        System.out.print(" | Nombre: "+this.nombre);
+        System.out.print(" | Edad: "+this.edad);
     }
 
     abstract void hacerSonido();
